@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+    float Hindi, English, Maths, Science, PPS;
+    float sum ,  percentage;
+    printf("Enter hindi marks\n");
+    scanf("%f", &Hindi);
+
+    printf("Enter engish marks\n");
+    scanf("%f", &English);
+
+    printf("enter maths marks\n");
+    scanf("%f", &Maths);
+
+    printf("Enter science marks\n");
+    scanf("%f", &Science);
+
+    printf("Enter pps marks\n");
+    scanf("%f",&PPS);
+
+    sum=Hindi+English+Maths+Science+PPS;
+    percentage =(sum/5);
+
+    printf("total marks=%f\n", sum);
+    printf("percentage=%f%%\n",percentage);
+return 0;
+
+}
