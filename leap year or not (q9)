@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+
+    int num;
+    printf("check whether a number a leap year or not");
+    scanf("%d", &num);
+
+    if (num <= 365)
+    {
+        printf("the number is not leap year");
+    }
+    else if (num == 366)
+    {
+        printf("the number is leap year");
+    }
+    else if (num >= 366)
+    {
+        printf("are pagla hai ka re ek saal me 366 se jada din hota hai kya re bhadwa");
+    }
+    return 0;
+}
